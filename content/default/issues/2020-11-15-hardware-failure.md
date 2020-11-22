@@ -73,9 +73,6 @@ section: issue
 
 ## Enter below issue description and subsequent updates if any
 ---
-
-Both our website and customer support area cannot be reached at the moment. We are investigating the matter.
-\
 **Issue identified:** Our hosting company has informed us of a failure in the datacenter equipment. They are expecting a 10 hours recovery. {{< track "2020-11-15 10:15:00" >}}
 \
 **Resolved:** Servers are operating normally, issue is solved. Sorry about the trouble!
