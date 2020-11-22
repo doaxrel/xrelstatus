@@ -3,7 +3,7 @@
 ############################################################
 
 # Complete page title
-title: ClearStatus systems status page
+title: xREL Systems Status Page
 
 # Language config
 languageCode: en
@@ -20,11 +20,11 @@ languageCode: en
 params:
   systems:
     - name: Website
-      description: Our company public facing website
-      link: https://www.example.com/
-    - name: Helpdesk
-      description: Our company customer support site
-      link: https://support.example.com/
+      description: Our amazing website
+      link: https://www.xrel.to/
+    - name: API
+      description: Our technical API that powers e.g. third-party apps
+      link: https://api.xrel.to/
 
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
@@ -34,21 +34,21 @@ params:
   # Set it for instance to " UTC" to indicate UTC times
   # or a specific time zone, ie " America/New_York"
   # You can also instead used a translated string per language
-  timezoneString: " UTC"
+  timezoneString: " Europe/Berlin"
 
   # Path to logo image from the /static folder.
-  logo: "/images/clearstatus.svg"
+  logo: "/images/xrel_logo2x.png"
 
   # favicon
-  icon: "/images/clearstatus.png"
-  iconType: "image/png"
+  icon: "/images/xrel-favicon.ico"
+  iconType: "image/x-icon"
 
   # Descriptions
   meta_description: "This status page provides updated information about our systems normal operation, incidents that may happen and their resolution."
-  description_footer: "<a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>Example.com</a> provides open-source software for all kind of sectors."
-  description_header: "Information about <a class='text-grey-darkest' title='Visit example.com' href='https://www.example.com/'>example</a> systems operations.<br />Follow us <a class='text-grey-darkest' title='Visit our page on Twitter' href='https://www.twitter.com/example'>on Twitter</a> or subscribe to <a class='text-grey-darkest' href='%s' >RSS</a><br />to be alerted of new events."
+  description_footer: "Release & NFO Source #1"
+  description_header: ""
 
-  copyrightHolder: "Example Inc."
+  copyrightHolder: "xREL"
 
   # Disqus commenting per issue: set your Disqus shortname here
   # Leave empty for no discussion at all.

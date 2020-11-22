@@ -1,13 +1,13 @@
 ---
-title: Main site server upgrade
+title: Hardware failure
 
 draft: false
 
 # Full date: 2019-03-29 17:26:09
-date: 2019-04-12
+date: 2020-11-15 10:15:00
 
 # Status: "resolved" | "in_progress" | "scheduled"
-status: "scheduled"
+status: "resolved"
 
 # This message will be taken out of the flow of events
 # and displayed at top of page or below the header
@@ -16,7 +16,7 @@ status: "scheduled"
 pinned: 
 
 # Duration for "scheduled" issues: Raw text, ie 5mn, 1h, 1 hour,..
-duration: 5mn
+duration:
 
 # Max severity: will be displayed when issue is resolved, in the past events section
 # Max_severity: ok | disrupted | down | monitoring | maintenance
@@ -24,14 +24,15 @@ max_severity: down
 
 # Current severity: used for current issue display
 # current_severity: ok | disrupted | down | monitoring | maintenance
-current_severity: down
+current_severity: ok
 
 # Full date: 2019-03-29 17:26:09
-resolved_on:
+resolved_on: 2020-11-15 18:30:00
 
 # Affected components, must use exact names defined in site config
 affected:
-  - Site
+  - Website
+  - API
 
 # If set and the status is in_progress, this feed will be embedded
 # in the event display. Leave empty for no Twitter feed.
@@ -59,7 +60,7 @@ twitterFeed:
 # you added your Disqus identifier in the global config.yml file
 # under the disqusShortname option.
 # enabledDisqus: true | false
-enableComments: true
+enableComments: false
 
 ## Do not change
 section: issue
@@ -73,9 +74,9 @@ section: issue
 ## Enter below issue description and subsequent updates if any
 ---
 
-Our hosting company needs to perform some software updates on our main website server. These updates require restarting the machine which implies some downtime.
+Both our website and customer support area cannot be reached at the moment. We are investigating the matter.
 \
-This maintenance should not last more than a few minutes or cause any other perturbation.
+**Issue identified:** Our hosting company has informed us of a failure in the datacenter equipment. They are expecting a 10 hours recovery. {{< track "2020-11-15 10:15:00" >}}
 \
-Sorry about the trouble!
+**Resolved:** Servers are operating normally, issue is solved. Sorry about the trouble!
 \
