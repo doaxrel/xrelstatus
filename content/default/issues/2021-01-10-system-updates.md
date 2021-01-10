@@ -3,10 +3,10 @@ title: Scheduled Updates
 
 draft: false
 
-date: 2021-01-10 08:13:00
+date: 2021-01-10 08:00:00
 
 # Status: "resolved" | "in_progress" | "scheduled"
-status: "resolved"
+status: "in_progress"
 
 # This message will be taken out of the flow of events
 # and displayed at top of page or below the header
@@ -23,10 +23,10 @@ max_severity: maintenance
 
 # Current severity: used for current issue display
 # current_severity: ok | disrupted | down | monitoring | maintenance
-current_severity: ok
+current_severity: down
 
 # Full date: 2019-03-29 17:26:09
-resolved_on: 2021-01-10 08:42:00
+resolved_on: 2021-01-10 09:00:00
 
 # Affected components, must use exact names defined in site config
 affected:
