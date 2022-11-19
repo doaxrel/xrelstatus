@@ -3,10 +3,10 @@ title: Scheduled Updates
 
 draft: false
 
-date: 2022-06-25 14:45:00
+date: 2022-11-19 18:15:00
 
 # Status: "resolved" | "in_progress" | "scheduled"
-status: "resolved"
+status: "in_progress"
 
 # This message will be taken out of the flow of events
 # and displayed at top of page or below the header
@@ -15,7 +15,7 @@ status: "resolved"
 pinned: 
 
 # Duration for "scheduled" issues: Raw text, ie 5mn, 1h, 1 hour,..
-duration: 1h
+duration: 30mn
 
 # Max severity: will be displayed when issue is resolved, in the past events section
 # Max_severity: ok | disrupted | down | monitoring | maintenance
@@ -23,10 +23,10 @@ max_severity: maintenance
 
 # Current severity: used for current issue display
 # current_severity: ok | disrupted | down | monitoring | maintenance
-current_severity: ok
+current_severity: maintenance
 
 # Full date: 2019-03-29 17:26:09
-resolved_on: 2022-06-25 15:26:00
+resolved_on: ~
 
 # Affected components, must use exact names defined in site config
 affected:
@@ -48,3 +48,4 @@ section: issue
 ## Enter below issue description and subsequent updates if any
 ---
 **Scheduled maintenace:** Servers are down while we do some maintenance.
+
