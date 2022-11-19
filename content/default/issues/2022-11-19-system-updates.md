@@ -6,7 +6,7 @@ draft: false
 date: 2022-11-19 18:15:00
 
 # Status: "resolved" | "in_progress" | "scheduled"
-status: "in_progress"
+status: "resolved"
 
 # This message will be taken out of the flow of events
 # and displayed at top of page or below the header
@@ -23,10 +23,10 @@ max_severity: maintenance
 
 # Current severity: used for current issue display
 # current_severity: ok | disrupted | down | monitoring | maintenance
-current_severity: maintenance
+current_severity: ok
 
 # Full date: 2019-03-29 17:26:09
-resolved_on: ~
+resolved_on: 2022-11-19 18:35:00
 
 # Affected components, must use exact names defined in site config
 affected:
@@ -47,5 +47,5 @@ section: issue
 
 ## Enter below issue description and subsequent updates if any
 ---
-**Scheduled maintenace:** Servers are down while we do some maintenance.
+**Scheduled maintenace:** Servers were down while we did some maintenance.
 
